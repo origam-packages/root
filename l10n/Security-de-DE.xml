@@ -16,7 +16,7 @@
     <Caption OriginalText="User Role">Benutzerrolle</Caption>
   </Element>
   <Element Id="691eff15-9e19-4f09-b15b-1ed1682c4887" Path="BusinessPartner/OldPassword">
-    <Caption OriginalText="Password (Old)">Passwort (Origianal)</Caption>
+    <Caption OriginalText="Password (Old)">Passwort (Original)</Caption>
   </Element>
   <Element Id="51287ff9-932d-4199-b9fc-479f4eb057fc" Path="AsapRoleAsapApplicationRole/IsFormReadOnly">
     <Caption OriginalText="Read Only (Screen)">Nur lesen (Formular)</Caption>
