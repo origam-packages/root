@@ -244,6 +244,9 @@
   <Element Id="ed566d7a-565a-4215-863b-04b16e695762" Path="AsapSyncRun/refAsapSyncConfigId">
     <Caption OriginalText="Konfigurace">Konfigurace</Caption>
   </Element>
+  <Element Id="13a2f9f8-c3e8-49fb-86e0-0515a72a10f2" Path="ILocalization/refLanguageId">
+    <Caption OriginalText="Language">Jazyk</Caption>
+  </Element>
   <Element Id="0fd32fd1-741a-471a-b033-059f062d238e" Path="WorkQueue/refRemovalAsapStateMachineEventTypeId">
     <Caption OriginalText="Removal Event">Událost zrušení</Caption>
   </Element>
@@ -959,7 +962,7 @@
     <Documentation Category="USER_LONG_HELP" OriginalText="Odkaz na nadřazený záznam">Odkaz na nadřazený záznam</Documentation>
   </Element>
   <Element Id="e5825bf0-6d85-4293-ac73-ec6b400890f7" Path="AsapSyncProviderConfig/refOrganizationId">
-    <Caption OriginalText="Organizace">Organizace</Caption>
+    <Caption OriginalText="Organization">Organizace</Caption>
   </Element>
   <Element Id="9c673323-d8ac-4498-9a05-edb73f8d903e" Path="Counter/Description">
     <Caption OriginalText="Description">Popis</Caption>

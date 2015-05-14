@@ -9,18 +9,24 @@
   <Element Id="ad2aebfe-e684-4e2e-8843-775c468357d5" Path="BusinessPartnerAsapRole">
     <Caption OriginalText="Business Partner's Roles">Přiřazení uživatelské role obchodnímu partnerovi</Caption>
   </Element>
+  <Element Id="a6cca53b-1bdd-4b1a-a7e9-a462c88e9bc1" Path="OrigamUser">
+    <Caption OriginalText="OrigamUser">OrigamUser</Caption>
+  </Element>
   <Element Id="049ffdd3-05f4-4e64-a97f-a4baefab1cb1" Path="AsapRole">
     <Caption OriginalText="User Role">Uživatelská role</Caption>
+  </Element>
+  <Element Id="691eff15-9e19-4f09-b15b-1ed1682c4887" Path="BusinessPartner/OldPassword">
+    <Caption OriginalText="Password (Old)">Heslo (původní)</Caption>
   </Element>
   <Element Id="51287ff9-932d-4199-b9fc-479f4eb057fc" Path="AsapRoleAsapApplicationRole/IsFormReadOnly">
     <Caption OriginalText="Read Only (Screen)">Pouze pro čtení (formulář)</Caption>
   </Element>
   <Element Id="2f004dbe-8a11-442c-b163-6fa5f6e69388" Path="BusinessPartner/UserRoles">
-    <Caption OriginalText="User Roles">Role</Caption>
+    <Caption OriginalText="User Roles">Uživatelské role</Caption>
   </Element>
   <Element Id="15ea6af0-68cc-4260-a0b4-7d912b7e87e4" Path="BusinessPartnerAsapRole/refAsapRoleId">
     <Caption OriginalText="User Role">Role</Caption>
-    <Documentation Category="USER_LONG_HELP" OriginalText="By assigning this role to a business partner you will assign him the corresponding application roles.">By assigning this role to a business partner you will assign him the corresponding application roles.</Documentation>
+    <Documentation Category="USER_LONG_HELP" OriginalText="By assigning this role to a business partner you will assign him the corresponding application roles.">Přiřazením této role uživateli mu zároveň přiřadíte všechny nastavené aplikační role.</Documentation>
   </Element>
   <Element Id="6ba55d4b-31be-4ba9-8564-7ed18b6936b4" Path="AsapRole/Alias">
     <Caption OriginalText="Alias">Alias</Caption>
@@ -47,17 +53,23 @@
   <Element Id="0f85ea5c-a327-4fad-917d-ec09a9a4f686" Path="AsapRoleAsapApplicationRole/refAsapApplicationRoleId">
     <Caption OriginalText="Application Role">Aplikační role</Caption>
   </Element>
-  <Element Id="17071b0b-2910-425a-8268-2d07ed497c09" Path="BusinessPartner/UnlockMembershipUser">
+  <Element Id="d0e0cb68-c308-4511-be2d-112014b919ef" Path="BusinessPartner/Identity_ChangePassword">
+    <Caption OriginalText="Change Password">Změnit heslo</Caption>
+  </Element>
+  <Element Id="17071b0b-2910-425a-8268-2d07ed497c09" Path="BusinessPartner/Identity_UnlockUser">
     <Caption OriginalText="Unlock">Odblokování přístupu</Caption>
   </Element>
-  <Element Id="3b8431ba-600e-4e11-8116-53b3cac64cab" Path="BusinessPartner/CreateMembershipUser">
+  <Element Id="3b8431ba-600e-4e11-8116-53b3cac64cab" Path="BusinessPartner/Identity_CreateUser">
     <Caption OriginalText="Assign Access">Vytvořit přístup</Caption>
   </Element>
-  <Element Id="011afc41-139c-4b0a-9d1c-6686674b02fd" Path="BusinessPartner/MembershipUserCreate_Save">
+  <Element Id="011afc41-139c-4b0a-9d1c-6686674b02fd" Path="BusinessPartner/Identity_CreateUser_Save">
     <Caption OriginalText="Create">Vytvořit</Caption>
   </Element>
-  <Element Id="9e3f4ff0-ec2b-4847-8ce1-99b6bec05190" Path="BusinessPartner/DeleteMembershipUser">
+  <Element Id="9e3f4ff0-ec2b-4847-8ce1-99b6bec05190" Path="BusinessPartner/Identity_DeleteUser">
     <Caption OriginalText="Remove Access">Zrušit přístup</Caption>
+  </Element>
+  <Element Id="82b212a4-0322-4e15-af50-baf6bf65cd2d" Path="BusinessPartner/Identity_ChangePassword_Save">
+    <Caption OriginalText="OK">OK</Caption>
   </Element>
   <Element Id="725eab14-26ae-4ae3-a536-65746b1b3f37" Path="admin/addUser">
     <Url OriginalText="admin/addUser">admin/addUser</Url>
@@ -67,6 +79,9 @@
   </Element>
   <Element Id="f5512713-98f4-4682-9cdd-03554007b39f" Path="AsapApplicationRole/AsapApplicationRoleRootControl/SplitPanel1/AsPanel1/PanelTitle">
     <Value OriginalText="Application Roles">Aplikační role</Value>
+  </Element>
+  <Element Id="0d5e5294-5bb7-45d5-a8eb-050f68cbbf3d" Path="UserProfile/UserProfileRootControl/NewControlSetItem/PanelTitle">
+    <Value OriginalText="User">Uživatel</Value>
   </Element>
   <Element Id="b57ed365-de99-4465-886d-07e80e0cdba9" Path="AsapRole/AsapRoleRootControl/SplitPanel1/AsPanel1/PanelTitle">
     <Value OriginalText="User Roles">Uživatelské role</Value>
@@ -85,6 +100,9 @@
   </Element>
   <Element Id="044ea55d-eee7-4899-a082-7ab85bff20ca" Path="UsersAndRoles/UsersAndRolesRootControl/SplitPanel1/AsPanel1/PanelTitle">
     <Value OriginalText="Users">Uživatelé</Value>
+  </Element>
+  <Element Id="f5c447e3-3302-41bf-a22d-9299f1eae240" Path="UserProfile/UserProfileRootControl/PanelTitle">
+    <Value OriginalText="User">Uživatel</Value>
   </Element>
   <Element Id="6d6b5e69-5833-4ca0-aedb-98baeb443e05" Path="AsapRoleAsapApplicationRole_ApplicationRoleForm/AsapRoleAsapApplicationRole_ApplicationRoleFormRootControl/AsCheckBox1/Text">
     <Value OriginalText="Read Only (Screen)">Pouze pro čtení (formulář)</Value>
@@ -108,24 +126,24 @@
     <Value OriginalText="User Roles">Uživatelské role</Value>
   </Element>
   <Element Id="cdae0116-4958-4244-8b4f-0d4d03e303bb" Path="DeleteMembershipUserConfirmationMessage">
-    <String OriginalText="Do you really want to remove the username account?">Do you really want to remove the username account?</String>
+    <String OriginalText="Do you really want to remove the username account?">Opravdu si přejete odstranit uživatelský účet?</String>
   </Element>
   <Element Id="3221421c-eebe-4280-8f98-1966fe693d07" Path="UsernameIsMandatory">
-    <String OriginalText="Username is a mandatory field. Please fill in a username.">Username is a mandatory field. Please fill in a username.</String>
+    <String OriginalText="Username is a mandatory field. Please fill in a username.">Zadejte prosím uživatelské jméno.</String>
   </Element>
   <Element Id="af140737-9dee-48e9-b6ae-29347a1f334b" Path="PasswordIsMandatory">
-    <String OriginalText="Password is a mandatory field. Please fill in a password.">Password is a mandatory field. Please fill in a password.</String>
+    <String OriginalText="Password is a mandatory field. Please fill in a password.">Zadejte prosím heslo.</String>
   </Element>
   <Element Id="86381c0e-6c5c-479c-89f3-4a6cb6139c96" Path="UsernameAlreadyExists">
-    <String OriginalText="Username already exists in the system, please fill in a different one.">Username already exists in the system, please fill in a different one.</String>
+    <String OriginalText="Username already exists in the system, please fill in a different one.">Toto uživatelské jméno je již obsazeno. Zvolte prosím jiné uživatelské jméno.</String>
   </Element>
   <Element Id="fcbe84ec-9bee-46f1-9c13-bcf21f5f384b" Path="PasswordsDoesntMatch">
-    <String OriginalText="Password and confirm password doesn't match.">Password and confirm password doesn't match.</String>
+    <String OriginalText="Password and confirm password doesn't match.">Heslo a potvrzení hesla nejsou stejné.</String>
   </Element>
   <Element Id="956ec691-ce50-4d9b-b92b-fec3a824bb4c" Path="EmailIsMandatory">
-    <String OriginalText="Email is a mandatory field. Please fill in an e-mail address.">Email is a mandatory field. Please fill in an e-mail address.</String>
+    <String OriginalText="Email is a mandatory field. Please fill in an e-mail address.">Zadejte prosím e-mailovou adresu.</String>
   </Element>
-  <Element Id="6c0f5dcd-1dd7-4ce6-885d-d00f6d522ee8" Path="NewUser/02_FillOutBusinessPartner">
-    <Documentation Category="USER_WFSTEP_DESCRIPTION" OriginalText="Enter User Information">Enter User Information</Documentation>
+  <Element Id="6c0f5dcd-1dd7-4ce6-885d-d00f6d522ee8" Path="Identity_CreateUser_GUI/02_FillOutBusinessPartner">
+    <Documentation Category="USER_WFSTEP_DESCRIPTION" OriginalText="Enter User Information">Zadejte informace o uživateli</Documentation>
   </Element>
 </AsapLocalization>
