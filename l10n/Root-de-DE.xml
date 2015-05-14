@@ -244,6 +244,9 @@
   <Element Id="ed566d7a-565a-4215-863b-04b16e695762" Path="AsapSyncRun/refAsapSyncConfigId">
     <Caption OriginalText="Konfigurace">Configuration</Caption>
   </Element>
+  <Element Id="13a2f9f8-c3e8-49fb-86e0-0515a72a10f2" Path="ILocalization/refLanguageId">
+    <Caption OriginalText="Language">Sprache</Caption>
+  </Element>
   <Element Id="0fd32fd1-741a-471a-b033-059f062d238e" Path="WorkQueue/refRemovalAsapStateMachineEventTypeId">
     <Caption OriginalText="Removal Event">Ereignis löschen</Caption>
   </Element>
@@ -371,7 +374,7 @@
   </Element>
   <Element Id="1fdb538d-525f-414c-93b1-29cadb29b1cb" Path="BusinessPartnerLookup/LookupText">
     <Caption OriginalText="Name">Name</Caption>
-    <Documentation Category="USER_LONG_HELP" OriginalText=""/>
+    <Documentation Category="USER_LONG_HELP" OriginalText="" />
   </Element>
   <Element Id="e92d84d6-8e2f-4dbe-969b-29f9118e6113" Path="IResourceAccessList/refResourceAccessLevelId">
     <Caption OriginalText="Access Level">Berechtigungsstufe</Caption>
@@ -442,7 +445,7 @@
     <Caption OriginalText="Locked By">Gesperrt durch</Caption>
   </Element>
   <Element Id="18aaefda-e04f-4155-8c03-4062e60b5b3e" Path="WorkQueue/ExternalSourceLastTime">
-    <Caption OriginalText="Last Action">Last Message</Caption>
+    <Caption OriginalText="Last Action">Letzte Aktion</Caption>
   </Element>
   <Element Id="6fe7b894-a09c-4167-8429-40acfc2228f8" Path="IAsapScheduleContainer/ScheduledBegin">
     <Documentation Category="USER_LONG_HELP" OriginalText="Předpokládané započetí">Erwarteter Anfang</Documentation>
@@ -457,7 +460,7 @@
     <Caption OriginalText="Zdroj">Resource</Caption>
   </Element>
   <Element Id="15c44b5f-c719-440e-983f-44f177593f63" Path="BusinessPartner/UserName">
-    <Caption OriginalText="Login Name">User Name</Caption>
+    <Caption OriginalText="Login Name">Benutzername</Caption>
     <Documentation Category="USER_LONG_HELP" OriginalText="Maps the internal user to the login user name.">Weist den internen Benutzer den Namen des angemeldeten Benutzers zu.</Documentation>
   </Element>
   <Element Id="e8b05f7f-0987-4fab-9b8b-458f127c5515" Path="Language/Name">
@@ -527,7 +530,7 @@
   </Element>
   <Element Id="724cfd25-9c93-47a6-bdc1-5d6de4a3bb36" Path="BusinessPartner/ParentId">
     <Caption OriginalText="Parent Business Partner">Übergeordneter Geschäftspartner</Caption>
-    <Documentation Category="USER_LONG_HELP" OriginalText=""/>
+    <Documentation Category="USER_LONG_HELP" OriginalText="" />
   </Element>
   <Element Id="33d815ea-18e2-422d-93e6-5e204acfe111" Path="AsapMap/InitialZoom">
     <Caption OriginalText="Initial Zoom">Ursprüngliches Zoom</Caption>
@@ -684,7 +687,7 @@
   </Element>
   <Element Id="7a5f60a2-895a-49d7-b009-929b4a6a4c5a" Path="BusinessPartner/Name">
     <Caption OriginalText="Name">Name</Caption>
-    <Documentation Category="USER_LONG_HELP" OriginalText="Name"/>
+    <Documentation Category="USER_LONG_HELP" OriginalText="Name" />
   </Element>
   <Element Id="4e5ef294-fa28-43ea-9c69-92ac7d7cb557" Path="AsapSyncRun/CountFailures">
     <Caption OriginalText="Neúspěšných záznamů">Failures</Caption>
@@ -791,7 +794,7 @@
   </Element>
   <Element Id="9424c659-0c83-4aa9-b2a4-aeec9d9e8d40" Path="IAsapEntity/RecordUpdatedServer">
     <Caption OriginalText="Time Updated (Server)">Record Updated (server)</Caption>
-    <Documentation Category="USER_LONG_HELP" OriginalText="Datum a čas aktualizace záznamu na serveru."/>
+    <Documentation Category="USER_LONG_HELP" OriginalText="Datum a čas aktualizace záznamu na serveru." />
   </Element>
   <Element Id="7dd12d9d-696c-42e4-9644-af9d5b427ec0" Path="WorkQueue/refCreationAsapStateMachineEventTypeId">
     <Caption OriginalText="Create Event">Erstellungs-Event</Caption>
@@ -959,7 +962,7 @@
     <Documentation Category="USER_LONG_HELP" OriginalText="Odkaz na nadřazený záznam">Parent record ID</Documentation>
   </Element>
   <Element Id="e5825bf0-6d85-4293-ac73-ec6b400890f7" Path="AsapSyncProviderConfig/refOrganizationId">
-    <Caption OriginalText="Organizace">Organization</Caption>
+    <Caption OriginalText="Organization">Organization</Caption>
   </Element>
   <Element Id="9c673323-d8ac-4498-9a05-edb73f8d903e" Path="Counter/Description">
     <Caption OriginalText="Description">Beschreibung</Caption>
@@ -1025,7 +1028,7 @@
     <Value OriginalText="Features">Feature List</Value>
   </Element>
   <Element Id="922a4d18-7725-4d38-b438-04052858fb62" Path="Users/Users RootControl/PanelTitle">
-    <Value OriginalText="Uživatelé">Users</Value>
+    <Value OriginalText="Uživatelé">Benutzer</Value>
   </Element>
   <Element Id="18c9cc93-f771-47fc-ad4e-04931d6f4d79" Path="AsapFeatureList/AsapFeatureListRootControl/AsPanel1/PanelTitle">
     <Value OriginalText="Features">Feature List</Value>
